@@ -1,0 +1,9 @@
+
+<ul>
+  {% for author in authors %}
+  <li>
+    <a href="/author/{{ author.slug }}">
+      {{ author.title }}
+    </a>
+  {% endfor %}
+</ul>
